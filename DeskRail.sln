@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48E9F340-3A6F-46C9-8B5F-0CDE0CB1CAE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeskRail.Setup", "DeskRail.Setup", "{7F28B01C-A9D7-4DAF-901D-D97F8D5CC7E0}"
+	ProjectSection(SolutionItems) = preProject
+		src\DeskRail.Setup\setup.iss = src\DeskRail.Setup\setup.iss
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskRail.Core", "src\DeskRail.Core\DeskRail.Core.csproj", "{8A127F8A-5ED5-4033-8D9B-67D8F11ECA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskRail.App", "src\DeskRail.App\DeskRail.App.csproj", "{50AA8421-5CEF-4E56-8F88-84069A48A080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A127F8A-5ED5-4033-8D9B-67D8F11ECA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A127F8A-5ED5-4033-8D9B-67D8F11ECA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A127F8A-5ED5-4033-8D9B-67D8F11ECA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A127F8A-5ED5-4033-8D9B-67D8F11ECA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AA8421-5CEF-4E56-8F88-84069A48A080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AA8421-5CEF-4E56-8F88-84069A48A080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AA8421-5CEF-4E56-8F88-84069A48A080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AA8421-5CEF-4E56-8F88-84069A48A080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A127F8A-5ED5-4033-8D9B-67D8F11ECA2A} = {48E9F340-3A6F-46C9-8B5F-0CDE0CB1CAE2}
+		{50AA8421-5CEF-4E56-8F88-84069A48A080} = {48E9F340-3A6F-46C9-8B5F-0CDE0CB1CAE2}
+		{7F28B01C-A9D7-4DAF-901D-D97F8D5CC7E0} = {48E9F340-3A6F-46C9-8B5F-0CDE0CB1CAE2}
+	EndGlobalSection
+EndGlobal

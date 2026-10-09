@@ -1,0 +1,17 @@
+# .NET build outputs
+**/bin/
+**/obj/
+publish/
+
+# IDE and local user state
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Downloaded website captures and local prototypes
+/example.html
+/example_files/
+/Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.3-Flash.html
+/Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.3-Flash_files/
+
